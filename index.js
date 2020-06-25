@@ -35,4 +35,5 @@ function buttonPressed() {
 
   document.getElementById("firstName").value = "";
   document.getElementById("secondName").value = "";
+
 }
