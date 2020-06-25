@@ -1,10 +1,10 @@
 .col {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .btn {
   align-items: center;
-  margin-top:100px;
+  margin-top:50px;
 }
 
 .title {
@@ -17,6 +17,14 @@
 }
 
 .subtitle {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #342b38;
+}
+
+.names {
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
