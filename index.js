@@ -29,7 +29,7 @@ function buttonPressed() {
     nameOne = nameOne[0].toUpperCase() + nameOne.slice(1);
     nameTwo = nameTwo[0].toUpperCase() + nameTwo.slice(1);
 
-    document.querySelector("h3").innerHTML = nameOne + " & " + nameTwo;
+    document.querySelector("h3").innerHTML = nameOne + " and " + nameTwo;
 
   }
 
