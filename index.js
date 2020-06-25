@@ -4,7 +4,7 @@ function buttonPressed() {
 
   document.querySelector("h1").innerHTML = randomNumber + "%";
 
-  if (randomNumber < 100 && randomNumber >= 90) {
+  if (randomNumber <= 100 && randomNumber >= 90) {
     document.querySelector("h4").innerHTML = "... and they lived happily ever after!";
   }
   else if (randomNumber < 90 && randomNumber >= 70) {
